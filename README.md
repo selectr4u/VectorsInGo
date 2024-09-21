@@ -88,5 +88,7 @@ func main() {
     fmt.Println("3D Vector Addition:", result3D)
 }
 ```
+## License
+This project is licensed under the MIT License. For more details, see LICENSE.
 
 Happy coding! 
