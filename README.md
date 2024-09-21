@@ -63,6 +63,8 @@ type Vector3D struct {
 - `ReflectAcross(normal Vector3D) Vector3D`: Returns the reflection of v across the given normal vector.
 - `Normal() Vector3D`: Returns the normalized (unit) vector of v.
 
+> As of now, it's lacking a `Rotate` method for the 3D Vectors and that's because.. I'm lazy (jokes aside, it'll be soon. hopefully?)
+
 ## How to Use
 
 To use these packages, simply import them into your Go project and start working with vectors. Here's a quick example to get you started:
@@ -88,5 +90,8 @@ func main() {
     fmt.Println("3D Vector Addition:", result3D)
 }
 ```
+
+## License
+This project is licensed under the MIT License. For more details, see LICENSE.
 
 Happy coding! 
